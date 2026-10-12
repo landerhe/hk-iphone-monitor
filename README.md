@@ -12,7 +12,7 @@
 
 单元测试覆盖六店核对、字段缺失、未知字段、接口拦截、库存变化去重、异常恢复、邮件失败持久化与 Gmail relay 鉴权。Worker 已通过 Wrangler dry-run 编译。
 
-**这不等于已经在云端运行。** 需要完成 Cloudflare 账号授权、D1 创建、Gmail relay 部署，并实测云端查询和收件。Apple 可能对数据中心出口限流；本机成功不代表 Cloudflare 一定成功。
+Cloudflare 部署步骤见下文。个人部署状态、收件信息和数据库配置只保存于本机的 `deployment-status.json` 与 `wrangler.local.toml`，不提交到 GitHub。Apple 可能对数据中心出口限流；本机成功不代表 Cloudflare 一定成功。
 
 ## 为什么选这个运行方式
 

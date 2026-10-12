@@ -5,3 +5,5 @@ node_modules/
 state.json
 state.json.tmp
 monitor.lock
+deployment-status.json
+wrangler.local.toml
