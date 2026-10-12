@@ -165,5 +165,12 @@
         }
       }
     }
-  ]
+  ],
+  "validatedProgram": {
+    "localOnce": "passed, six stores healthy, out_of_stock on 2026-10-12",
+    "unitTests": "12 passed",
+    "sqliteLease": "passed",
+    "workerDryRun": "passed, 13.03 KiB / gzip 5.21 KiB",
+    "cloudDeployment": "pending Cloudflare login and Gmail authorization"
+  }
 }
