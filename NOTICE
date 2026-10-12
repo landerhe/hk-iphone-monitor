@@ -1,0 +1,10 @@
+HK iPhone Monitor: Cloudflare Worker + D1 + Gmail relay, with local fallback.
+API contract, three-state parsing rules, store IDs and product SKU adapted from:
+https://github.com/ENCHIGO/apple-pickup-watcher
+Snapshot commit: 1ac3be07d6ad16acf6b2c8e0978b97340967e594
+Upstream is GPL-3.0-or-later and derived from hteen/apple-store-helper.
+Original project: https://github.com/hteen/apple-store-helper
+See upstream NOTICE for original attribution; preserved in UPSTREAM-NOTICE.
+This adaptation is distributed under GPL-3.0-or-later. See LICENSE.
+Modified: JavaScript cloud runtime, D1 state/lease, persistent mail retry,
+Gmail Apps Script relay, protected status dashboard, and Node local fallback.

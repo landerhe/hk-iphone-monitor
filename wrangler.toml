@@ -1,0 +1,15 @@
+name = "hk-iphone-monitor"
+main = "src/worker.mjs"
+compatibility_date = "2026-10-12"
+workers_dev = true
+
+[triggers]
+crons = ["* * * * *"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "hk-iphone-monitor"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"
+
+[observability]
+enabled = true

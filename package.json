@@ -1,0 +1,7 @@
+{
+  "name": "hk-iphone-monitor",
+  "private": true,
+  "type": "module",
+  "scripts": {"test": "node --test", "local": "node src/local.mjs", "deploy": "wrangler deploy"},
+  "devDependencies": {"wrangler": "^4.0.0"}
+}
