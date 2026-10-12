@@ -21,18 +21,43 @@ test('status endpoint denies unauthenticated access and flags stale snapshots',a
 test('cron stores actual parsed snapshot and releases lease',async()=>{
   const previousFetch=globalThis.fetch;const DB=database();
   globalThis.fetch=async()=>Response.json(fixture);
-  try{await run({DB});const s=JSON.parse(DB.row.state);assert.equal(s.healthy,true);assert.equal(Object.keys(s.rows).length,6);assert.equal(DB.row.lock_until,0);}
+  try{await run({DB},{random:()=>0,wait:async()=>{}});const s=JSON.parse(DB.row.state);assert.equal(s.healthy,true);assert.equal(Object.keys(s.rows).length,6);assert.equal(DB.row.lock_until,0);}
   finally{globalThis.fetch=previousFetch;}
 });
 test('overlapping cron invocations make only one inventory request',async()=>{
   const previousFetch=globalThis.fetch;const DB=database();let requests=0;
   globalThis.fetch=async()=>{requests++;await new Promise(resolve=>setTimeout(resolve,10));return Response.json(fixture);};
-  try{await Promise.all([run({DB}),run({DB})]);assert.equal(requests,1);}
+  try{await Promise.all([run({DB},{random:()=>0,wait:async()=>{}}),run({DB},{random:()=>0,wait:async()=>{}})]);assert.equal(requests,1);}
   finally{globalThis.fetch=previousFetch;}
 });
 test('blocked response persists immediate health alert without mail config',async()=>{
   const previousFetch=globalThis.fetch;const DB=database();
   globalThis.fetch=async()=>new Response('blocked',{status:541});
-  try{await run({DB});const s=JSON.parse(DB.row.state);assert.equal(s.healthy,false);assert.equal(s.pending[0].type,'unhealthy');assert.ok(s.mailError);assert.ok(s.nextCheckAt>s.lastCheckedAt+14*60000);}
+  try{await run({DB},{random:()=>0,wait:async()=>{}});const s=JSON.parse(DB.row.state);assert.equal(s.healthy,false);assert.equal(s.pending[0].type,'unhealthy');assert.ok(s.mailError);assert.ok(s.nextCheckAt>s.lastCheckedAt+14*60000);}
   finally{globalThis.fetch=previousFetch;}
+});
+
+test('a skipped cron tick makes no Apple request',async()=>{
+ const previousFetch=globalThis.fetch;const DB=database({nextCheckAt:Date.now()+600000,pending:[]});let requests=0;
+ globalThis.fetch=async()=>{requests++;return Response.json(fixture);};
+ try{await run({DB},{wait:async()=>{throw Error('should not wait');}});assert.equal(requests,0);}
+ finally{globalThis.fetch=previousFetch;}
+});
+test('planned cooldown is not misreported as stale',async()=>{
+ const now=Date.now(), env={DB:database({lastCheckedAt:now-600000,nextCheckAt:now+600000,cooldown:true}),ADMIN_TOKEN:'unit-test-token'};
+ const r=await worker.fetch(new Request('https://test/api/status',{headers:{Authorization:'Bearer unit-test-token'}}),env);
+ assert.equal((await r.json()).stale,false);
+});
+
+test('cron waits for a nearby randomized deadline before querying',async()=>{
+ const previousFetch=globalThis.fetch;const DB=database({nextCheckAt:Date.now()+30000,pending:[]});let waited=0,requests=0;
+ globalThis.fetch=async()=>{requests++;return Response.json(fixture);};
+ try{await run({DB},{random:()=>0,wait:async ms=>{waited=ms;}});assert.ok(waited>25000&&waited<=30000);assert.equal(requests,1);}
+ finally{globalThis.fetch=previousFetch;}
+});
+test('cron never waits through an Apple block cooldown',async()=>{
+ const previousFetch=globalThis.fetch;const DB=database({nextCheckAt:Date.now()+30000,cooldown:true,pending:[]});let requests=0;
+ globalThis.fetch=async()=>{requests++;return Response.json(fixture);};
+ try{await run({DB},{wait:async()=>{throw Error('cooldown must not wait');}});assert.equal(requests,0);}
+ finally{globalThis.fetch=previousFetch;}
 });

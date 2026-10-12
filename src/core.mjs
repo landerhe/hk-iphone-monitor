@@ -40,7 +40,7 @@ export async function queryInventory(fetcher = fetch) {
     return {rows: unknownAll('网络超时或响应不是有效 JSON'), blocked: false};
   }
 }
-export function evolve(previous, result, now = Date.now()) {
+export function evolve(previous, result, now = Date.now(), random = Math.random) {
   const state = structuredClone(previous);
   state.definite ??= {};
   state.pending ??= [];
@@ -65,7 +65,14 @@ export function evolve(previous, result, now = Date.now()) {
   state.healthy = healthy;
   state.lastCheckedAt = now;
   if (healthy) state.lastHealthyAt = now;
-  state.nextCheckAt = now + (result.blocked ? 15 * 60000 : 60000);
+  state.blockStreak = result.blocked ? (state.blockStreak ?? 0) + 1 : healthy ? 0 : (state.blockStreak ?? 0);
+  const sample = Math.max(0, Math.min(1, random()));
+  state.scheduleVersion = 2;
+  state.cooldown = Boolean(result.blocked);
+  const delay = result.blocked
+    ? Math.min(120, 15 * 2 ** Math.min(state.blockStreak - 1, 3)) * 60000 + Math.floor(sample * 5 * 60000)
+    : 45000 + Math.floor(sample * 45000);
+  state.nextCheckAt = now + delay;
   return state;
 }
 export function compose(event) {

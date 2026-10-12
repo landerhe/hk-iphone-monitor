@@ -31,7 +31,7 @@ test('nested envelope supported; duplicate store and mismatched SKU rejected', (
 test('HTTP 541 and HTML never become no stock; blocked query cools down', async () => {
   const blocked = await queryInventory(async()=>new Response('blocked',{status:541}));
   assert.ok(Object.values(blocked.rows).every(r=>r.kind==='unknown'));
-  assert.equal(evolve({},blocked,100).nextCheckAt,900100);
+  assert.equal(evolve({},blocked,100,()=>0).nextCheckAt,900100);
   assert.equal(evolve({},blocked,100).pending[0].type,'unhealthy');
   const html = await queryInventory(async()=>new Response('<html>'));
   assert.ok(Object.values(html.rows).every(r=>r.kind==='unknown'));
@@ -67,3 +67,14 @@ test('Gmail relay authenticates, fixes recipient and deduplicates retries',()=>{
   assert.equal(post().ok,false);payload.secret='x'.repeat(32);assert.equal(post().ok,true);assert.equal(post().duplicate,true);
   assert.equal(sent.length,1);assert.equal(sent[0].to,'self@example.com');
 });
+
+ test('jitter is bounded and repeated blocking grows cooldown; healthy resets it', () => {
+   assert.equal(evolve({},result(),100,()=>0).nextCheckAt,45100);
+   assert.equal(evolve({},result(),100,()=>1).nextCheckAt,90100);
+   const blocked={...result(), blocked:true};
+   blocked.rows.R428.kind='unknown';
+   let s=evolve({},blocked,100,()=>0);
+   assert.equal(s.nextCheckAt,900100);
+   s=evolve(s,blocked,100,()=>1); assert.equal(s.nextCheckAt,2100100);
+   s=evolve(s,result(),100,()=>0); assert.equal(s.blockStreak,0); assert.equal(s.cooldown,false);
+ });
