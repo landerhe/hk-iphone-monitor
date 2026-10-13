@@ -34,7 +34,7 @@ test('HTTP 541 and HTML never become no stock; blocked query cools down', async 
   assert.equal(evolve({},blocked,100,()=>0).nextCheckAt,900100);
   assert.equal(evolve({},blocked,100).pending[0].type,'unhealthy');
   const html = await queryInventory(async()=>new Response('<html>'));
-  assert.ok(Object.values(html.rows).every(r=>r.kind==='unknown'));
+  assert.ok(Object.values(html.rows).every(r=>r.kind==='unknown'));assert.equal(html.httpStatus,200);
 });
 test('restock dedup survives restart and unknown; confirmed no-stock rearms', () => {
   const r = result(); r.rows[targetKey('R428',SKU)].kind='in_stock';

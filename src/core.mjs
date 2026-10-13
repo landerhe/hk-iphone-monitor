@@ -46,14 +46,16 @@ export async function queryInventory(fetcher = fetch) {
   const url = new URL('https://www.apple.com/hk-zh/shop/retail/pickup-message');
   url.search = new URLSearchParams({location: 'Hong Kong', pl: 'true', 'mts.0': 'regular'});
   PRODUCTS.forEach(([part], i) => url.searchParams.set('parts.' + i, part));
+  let httpStatus = null;
   try {
     const response = await fetcher(url, {headers: {Accept: 'application/json', Referer: BUY_URL}, signal: AbortSignal.timeout(15000)});
-    if (!response.ok) return {rows: unknownAll(`Apple HTTP ${response.status}`), blocked: [403, 429, 541].includes(response.status)};
+    httpStatus = response.status;
+    if (!response.ok) return {rows: unknownAll(`Apple HTTP ${response.status}`), blocked: [403, 429, 541].includes(response.status), httpStatus: response.status};
     const text = await response.text();
     if (text.length > 1024 * 1024) throw new Error('oversize');
-    return {rows: parseInventory(JSON.parse(text)), blocked: false};
+    return {rows: parseInventory(JSON.parse(text)), blocked: false, httpStatus: response.status};
   } catch {
-    return {rows: unknownAll('网络超时或响应不是有效 JSON'), blocked: false};
+    return {rows: unknownAll('网络超时或响应不是有效 JSON'), blocked: false, httpStatus};
   }
 }
 export function evolve(previous, result, now = Date.now(), random = Math.random) {
@@ -110,7 +112,7 @@ export async function sendMail(env, event, fetcher = fetch) {
   const response = await fetcher(env.MAIL_RELAY_URL, {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({...compose(event), secret: env.MAIL_RELAY_SECRET}), signal: AbortSignal.timeout(20000), redirect: 'follow'});
   if (!response.ok || (await response.json()).ok !== true) throw new Error('邮件服务未确认发送成功');
 }
-export async function deliver(state, env, save, fetcher = fetch, now = Date.now()) {
+export async function deliver(state, env, save, fetcher = fetch, now = Date.now(), audit = async () => {}) {
   // At most 3 deliveries per tick; persisted before send, acked only on success.
   for (const event of state.pending.filter(e => e.retryAt <= now).slice(0, 3)) {
     try {
@@ -124,5 +126,6 @@ export async function deliver(state, env, save, fetcher = fetch, now = Date.now(
       state.mailError = '邮件未成功发送；事件已保留，稍后重试';
     }
     await save(state);
+    await audit(event, state.pending.some(e => e.id === event.id) ? 'failed' : 'sent', now, event.attempts);
   }
 }
