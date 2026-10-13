@@ -9,9 +9,72 @@
         "storeNumber": "R409",
         "storeName": "Causeway Bay",
         "partsAvailability": {
+          "MJXT4ZA/A": {
+            "storePickEligible": true,
+            "pickupSearchQuote": "暫無供應",
+            "partNumber": "MJXT4ZA/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "pickupDisplay": "unavailable",
+            "pickupType": "店內取貨",
+            "messageTypes": {
+              "regular": {
+                "storeSearchEnabled": true,
+                "storePickupLabel": "取貨：",
+                "storeSelectionEnabled": false,
+                "storePickupQuote": "Apple Causeway Bay 暫時無法提供",
+                "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple Causeway Bay</button> 暫時無法提供",
+                "storePickupLinkText": "查看可用狀況",
+                "storePickupProductTitle": "iPhone 18 Pro Max 512GB 黑色",
+                "basePartNumber": "MJXT4"
+              }
+            }
+          },
+          "MJXU4ZA/A": {
+            "storePickEligible": true,
+            "pickupSearchQuote": "暫無供應",
+            "partNumber": "MJXU4ZA/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "pickupDisplay": "unavailable",
+            "pickupType": "店內取貨",
+            "messageTypes": {
+              "regular": {
+                "storeSearchEnabled": true,
+                "storePickupLabel": "取貨：",
+                "storeSelectionEnabled": false,
+                "storePickupQuote": "Apple Causeway Bay 暫時無法提供",
+                "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple Causeway Bay</button> 暫時無法提供",
+                "storePickupLinkText": "查看可用狀況",
+                "storePickupProductTitle": "iPhone 18 Pro Max 512GB 銀色",
+                "basePartNumber": "MJXU4"
+              }
+            }
+          },
+          "MJXV4ZA/A": {
+            "storePickEligible": true,
+            "pickupSearchQuote": "暫無供應",
+            "partNumber": "MJXV4ZA/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "pickupDisplay": "unavailable",
+            "pickupType": "店內取貨",
+            "messageTypes": {
+              "regular": {
+                "storeSearchEnabled": true,
+                "storePickupLabel": "取貨：",
+                "storeSelectionEnabled": false,
+                "storePickupQuote": "Apple Causeway Bay 暫時無法提供",
+                "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple Causeway Bay</button> 暫時無法提供",
+                "storePickupLinkText": "查看可用狀況",
+                "storePickupProductTitle": "iPhone 18 Pro Max 512GB 布根地紅色",
+                "basePartNumber": "MJXV4"
+              }
+            }
+          },
           "MJXW4ZA/A": {
             "storePickEligible": true,
-            "pickupSearchQuote": "提取服務不適用",
+            "pickupSearchQuote": "暫無供應",
             "partNumber": "MJXW4ZA/A",
             "purchaseOption": "",
             "ctoOptions": "",
@@ -29,6 +92,90 @@
                 "basePartNumber": "MJXW4"
               }
             }
+          },
+          "MJXX4ZA/A": {
+            "storePickEligible": true,
+            "pickupSearchQuote": "暫無供應",
+            "partNumber": "MJXX4ZA/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "pickupDisplay": "unavailable",
+            "pickupType": "店內取貨",
+            "messageTypes": {
+              "regular": {
+                "storeSearchEnabled": true,
+                "storePickupLabel": "取貨：",
+                "storeSelectionEnabled": false,
+                "storePickupQuote": "Apple Causeway Bay 暫時無法提供",
+                "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple Causeway Bay</button> 暫時無法提供",
+                "storePickupLinkText": "查看可用狀況",
+                "storePickupProductTitle": "iPhone 18 Pro Max 1TB 黑色",
+                "basePartNumber": "MJXX4"
+              }
+            }
+          },
+          "MJXY4ZA/A": {
+            "storePickEligible": true,
+            "pickupSearchQuote": "暫無供應",
+            "partNumber": "MJXY4ZA/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "pickupDisplay": "unavailable",
+            "pickupType": "店內取貨",
+            "messageTypes": {
+              "regular": {
+                "storeSearchEnabled": true,
+                "storePickupLabel": "取貨：",
+                "storeSelectionEnabled": false,
+                "storePickupQuote": "Apple Causeway Bay 暫時無法提供",
+                "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple Causeway Bay</button> 暫時無法提供",
+                "storePickupLinkText": "查看可用狀況",
+                "storePickupProductTitle": "iPhone 18 Pro Max 1TB 銀色",
+                "basePartNumber": "MJXY4"
+              }
+            }
+          },
+          "MJY04ZA/A": {
+            "storePickEligible": true,
+            "pickupSearchQuote": "暫無供應",
+            "partNumber": "MJY04ZA/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "pickupDisplay": "unavailable",
+            "pickupType": "店內取貨",
+            "messageTypes": {
+              "regular": {
+                "storeSearchEnabled": true,
+                "storePickupLabel": "取貨：",
+                "storeSelectionEnabled": false,
+                "storePickupQuote": "Apple Causeway Bay 暫時無法提供",
+                "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple Causeway Bay</button> 暫時無法提供",
+                "storePickupLinkText": "查看可用狀況",
+                "storePickupProductTitle": "iPhone 18 Pro Max 1TB 布根地紅色",
+                "basePartNumber": "MJY04"
+              }
+            }
+          },
+          "MJY14ZA/A": {
+            "storePickEligible": true,
+            "pickupSearchQuote": "暫無供應",
+            "partNumber": "MJY14ZA/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "pickupDisplay": "unavailable",
+            "pickupType": "店內取貨",
+            "messageTypes": {
+              "regular": {
+                "storeSearchEnabled": true,
+                "storePickupLabel": "取貨：",
+                "storeSelectionEnabled": false,
+                "storePickupQuote": "Apple Causeway Bay 暫時無法提供",
+                "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple Causeway Bay</button> 暫時無法提供",
+                "storePickupLinkText": "查看可用狀況",
+                "storePickupProductTitle": "iPhone 18 Pro Max 1TB 冰川色",
+                "basePartNumber": "MJY14"
+              }
+            }
           }
         }
       },
@@ -36,9 +183,72 @@
         "storeNumber": "R428",
         "storeName": "ifc mall",
         "partsAvailability": {
+          "MJXT4ZA/A": {
+            "storePickEligible": true,
+            "pickupSearchQuote": "暫無供應",
+            "partNumber": "MJXT4ZA/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "pickupDisplay": "unavailable",
+            "pickupType": "店內取貨",
+            "messageTypes": {
+              "regular": {
+                "storeSearchEnabled": true,
+                "storePickupLabel": "取貨：",
+                "storeSelectionEnabled": false,
+                "storePickupQuote": "Apple ifc mall 暫時無法提供",
+                "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple ifc mall</button> 暫時無法提供",
+                "storePickupLinkText": "查看可用狀況",
+                "storePickupProductTitle": "iPhone 18 Pro Max 512GB 黑色",
+                "basePartNumber": "MJXT4"
+              }
+            }
+          },
+          "MJXU4ZA/A": {
+            "storePickEligible": true,
+            "pickupSearchQuote": "暫無供應",
+            "partNumber": "MJXU4ZA/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "pickupDisplay": "unavailable",
+            "pickupType": "店內取貨",
+            "messageTypes": {
+              "regular": {
+                "storeSearchEnabled": true,
+                "storePickupLabel": "取貨：",
+                "storeSelectionEnabled": false,
+                "storePickupQuote": "Apple ifc mall 暫時無法提供",
+                "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple ifc mall</button> 暫時無法提供",
+                "storePickupLinkText": "查看可用狀況",
+                "storePickupProductTitle": "iPhone 18 Pro Max 512GB 銀色",
+                "basePartNumber": "MJXU4"
+              }
+            }
+          },
+          "MJXV4ZA/A": {
+            "storePickEligible": true,
+            "pickupSearchQuote": "暫無供應",
+            "partNumber": "MJXV4ZA/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "pickupDisplay": "unavailable",
+            "pickupType": "店內取貨",
+            "messageTypes": {
+              "regular": {
+                "storeSearchEnabled": true,
+                "storePickupLabel": "取貨：",
+                "storeSelectionEnabled": false,
+                "storePickupQuote": "Apple ifc mall 暫時無法提供",
+                "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple ifc mall</button> 暫時無法提供",
+                "storePickupLinkText": "查看可用狀況",
+                "storePickupProductTitle": "iPhone 18 Pro Max 512GB 布根地紅色",
+                "basePartNumber": "MJXV4"
+              }
+            }
+          },
           "MJXW4ZA/A": {
             "storePickEligible": true,
-            "pickupSearchQuote": "提取服務不適用",
+            "pickupSearchQuote": "暫無供應",
             "partNumber": "MJXW4ZA/A",
             "purchaseOption": "",
             "ctoOptions": "",
@@ -56,6 +266,90 @@
                 "basePartNumber": "MJXW4"
               }
             }
+          },
+          "MJXX4ZA/A": {
+            "storePickEligible": true,
+            "pickupSearchQuote": "暫無供應",
+            "partNumber": "MJXX4ZA/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "pickupDisplay": "unavailable",
+            "pickupType": "店內取貨",
+            "messageTypes": {
+              "regular": {
+                "storeSearchEnabled": true,
+                "storePickupLabel": "取貨：",
+                "storeSelectionEnabled": false,
+                "storePickupQuote": "Apple ifc mall 暫時無法提供",
+                "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple ifc mall</button> 暫時無法提供",
+                "storePickupLinkText": "查看可用狀況",
+                "storePickupProductTitle": "iPhone 18 Pro Max 1TB 黑色",
+                "basePartNumber": "MJXX4"
+              }
+            }
+          },
+          "MJXY4ZA/A": {
+            "storePickEligible": true,
+            "pickupSearchQuote": "暫無供應",
+            "partNumber": "MJXY4ZA/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "pickupDisplay": "unavailable",
+            "pickupType": "店內取貨",
+            "messageTypes": {
+              "regular": {
+                "storeSearchEnabled": true,
+                "storePickupLabel": "取貨：",
+                "storeSelectionEnabled": false,
+                "storePickupQuote": "Apple ifc mall 暫時無法提供",
+                "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple ifc mall</button> 暫時無法提供",
+                "storePickupLinkText": "查看可用狀況",
+                "storePickupProductTitle": "iPhone 18 Pro Max 1TB 銀色",
+                "basePartNumber": "MJXY4"
+              }
+            }
+          },
+          "MJY04ZA/A": {
+            "storePickEligible": true,
+            "pickupSearchQuote": "暫無供應",
+            "partNumber": "MJY04ZA/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "pickupDisplay": "unavailable",
+            "pickupType": "店內取貨",
+            "messageTypes": {
+              "regular": {
+                "storeSearchEnabled": true,
+                "storePickupLabel": "取貨：",
+                "storeSelectionEnabled": false,
+                "storePickupQuote": "Apple ifc mall 暫時無法提供",
+                "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple ifc mall</button> 暫時無法提供",
+                "storePickupLinkText": "查看可用狀況",
+                "storePickupProductTitle": "iPhone 18 Pro Max 1TB 布根地紅色",
+                "basePartNumber": "MJY04"
+              }
+            }
+          },
+          "MJY14ZA/A": {
+            "storePickEligible": true,
+            "pickupSearchQuote": "暫無供應",
+            "partNumber": "MJY14ZA/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "pickupDisplay": "unavailable",
+            "pickupType": "店內取貨",
+            "messageTypes": {
+              "regular": {
+                "storeSearchEnabled": true,
+                "storePickupLabel": "取貨：",
+                "storeSelectionEnabled": false,
+                "storePickupQuote": "Apple ifc mall 暫時無法提供",
+                "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple ifc mall</button> 暫時無法提供",
+                "storePickupLinkText": "查看可用狀況",
+                "storePickupProductTitle": "iPhone 18 Pro Max 1TB 冰川色",
+                "basePartNumber": "MJY14"
+              }
+            }
           }
         }
       },
@@ -63,9 +357,72 @@
         "storeNumber": "R499",
         "storeName": "Canton Road",
         "partsAvailability": {
+          "MJXT4ZA/A": {
+            "storePickEligible": true,
+            "pickupSearchQuote": "暫無供應",
+            "partNumber": "MJXT4ZA/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "pickupDisplay": "unavailable",
+            "pickupType": "店內取貨",
+            "messageTypes": {
+              "regular": {
+                "storeSearchEnabled": true,
+                "storePickupLabel": "取貨：",
+                "storeSelectionEnabled": false,
+                "storePickupQuote": "Apple Canton Road 暫時無法提供",
+                "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple Canton Road</button> 暫時無法提供",
+                "storePickupLinkText": "查看可用狀況",
+                "storePickupProductTitle": "iPhone 18 Pro Max 512GB 黑色",
+                "basePartNumber": "MJXT4"
+              }
+            }
+          },
+          "MJXU4ZA/A": {
+            "storePickEligible": true,
+            "pickupSearchQuote": "暫無供應",
+            "partNumber": "MJXU4ZA/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "pickupDisplay": "unavailable",
+            "pickupType": "店內取貨",
+            "messageTypes": {
+              "regular": {
+                "storeSearchEnabled": true,
+                "storePickupLabel": "取貨：",
+                "storeSelectionEnabled": false,
+                "storePickupQuote": "Apple Canton Road 暫時無法提供",
+                "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple Canton Road</button> 暫時無法提供",
+                "storePickupLinkText": "查看可用狀況",
+                "storePickupProductTitle": "iPhone 18 Pro Max 512GB 銀色",
+                "basePartNumber": "MJXU4"
+              }
+            }
+          },
+          "MJXV4ZA/A": {
+            "storePickEligible": true,
+            "pickupSearchQuote": "暫無供應",
+            "partNumber": "MJXV4ZA/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "pickupDisplay": "unavailable",
+            "pickupType": "店內取貨",
+            "messageTypes": {
+              "regular": {
+                "storeSearchEnabled": true,
+                "storePickupLabel": "取貨：",
+                "storeSelectionEnabled": false,
+                "storePickupQuote": "Apple Canton Road 暫時無法提供",
+                "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple Canton Road</button> 暫時無法提供",
+                "storePickupLinkText": "查看可用狀況",
+                "storePickupProductTitle": "iPhone 18 Pro Max 512GB 布根地紅色",
+                "basePartNumber": "MJXV4"
+              }
+            }
+          },
           "MJXW4ZA/A": {
             "storePickEligible": true,
-            "pickupSearchQuote": "提取服務不適用",
+            "pickupSearchQuote": "暫無供應",
             "partNumber": "MJXW4ZA/A",
             "purchaseOption": "",
             "ctoOptions": "",
@@ -83,6 +440,90 @@
                 "basePartNumber": "MJXW4"
               }
             }
+          },
+          "MJXX4ZA/A": {
+            "storePickEligible": true,
+            "pickupSearchQuote": "暫無供應",
+            "partNumber": "MJXX4ZA/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "pickupDisplay": "unavailable",
+            "pickupType": "店內取貨",
+            "messageTypes": {
+              "regular": {
+                "storeSearchEnabled": true,
+                "storePickupLabel": "取貨：",
+                "storeSelectionEnabled": false,
+                "storePickupQuote": "Apple Canton Road 暫時無法提供",
+                "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple Canton Road</button> 暫時無法提供",
+                "storePickupLinkText": "查看可用狀況",
+                "storePickupProductTitle": "iPhone 18 Pro Max 1TB 黑色",
+                "basePartNumber": "MJXX4"
+              }
+            }
+          },
+          "MJXY4ZA/A": {
+            "storePickEligible": true,
+            "pickupSearchQuote": "暫無供應",
+            "partNumber": "MJXY4ZA/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "pickupDisplay": "unavailable",
+            "pickupType": "店內取貨",
+            "messageTypes": {
+              "regular": {
+                "storeSearchEnabled": true,
+                "storePickupLabel": "取貨：",
+                "storeSelectionEnabled": false,
+                "storePickupQuote": "Apple Canton Road 暫時無法提供",
+                "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple Canton Road</button> 暫時無法提供",
+                "storePickupLinkText": "查看可用狀況",
+                "storePickupProductTitle": "iPhone 18 Pro Max 1TB 銀色",
+                "basePartNumber": "MJXY4"
+              }
+            }
+          },
+          "MJY04ZA/A": {
+            "storePickEligible": true,
+            "pickupSearchQuote": "暫無供應",
+            "partNumber": "MJY04ZA/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "pickupDisplay": "unavailable",
+            "pickupType": "店內取貨",
+            "messageTypes": {
+              "regular": {
+                "storeSearchEnabled": true,
+                "storePickupLabel": "取貨：",
+                "storeSelectionEnabled": false,
+                "storePickupQuote": "Apple Canton Road 暫時無法提供",
+                "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple Canton Road</button> 暫時無法提供",
+                "storePickupLinkText": "查看可用狀況",
+                "storePickupProductTitle": "iPhone 18 Pro Max 1TB 布根地紅色",
+                "basePartNumber": "MJY04"
+              }
+            }
+          },
+          "MJY14ZA/A": {
+            "storePickEligible": true,
+            "pickupSearchQuote": "暫無供應",
+            "partNumber": "MJY14ZA/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "pickupDisplay": "unavailable",
+            "pickupType": "店內取貨",
+            "messageTypes": {
+              "regular": {
+                "storeSearchEnabled": true,
+                "storePickupLabel": "取貨：",
+                "storeSelectionEnabled": false,
+                "storePickupQuote": "Apple Canton Road 暫時無法提供",
+                "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple Canton Road</button> 暫時無法提供",
+                "storePickupLinkText": "查看可用狀況",
+                "storePickupProductTitle": "iPhone 18 Pro Max 1TB 冰川色",
+                "basePartNumber": "MJY14"
+              }
+            }
           }
         }
       },
@@ -90,9 +531,72 @@
         "storeNumber": "R673",
         "storeName": "apm Hong Kong",
         "partsAvailability": {
+          "MJXT4ZA/A": {
+            "storePickEligible": true,
+            "pickupSearchQuote": "暫無供應",
+            "partNumber": "MJXT4ZA/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "pickupDisplay": "unavailable",
+            "pickupType": "店內取貨",
+            "messageTypes": {
+              "regular": {
+                "storeSearchEnabled": true,
+                "storePickupLabel": "取貨：",
+                "storeSelectionEnabled": false,
+                "storePickupQuote": "Apple apm Hong Kong 暫時無法提供",
+                "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple apm Hong Kong</button> 暫時無法提供",
+                "storePickupLinkText": "查看可用狀況",
+                "storePickupProductTitle": "iPhone 18 Pro Max 512GB 黑色",
+                "basePartNumber": "MJXT4"
+              }
+            }
+          },
+          "MJXU4ZA/A": {
+            "storePickEligible": true,
+            "pickupSearchQuote": "暫無供應",
+            "partNumber": "MJXU4ZA/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "pickupDisplay": "unavailable",
+            "pickupType": "店內取貨",
+            "messageTypes": {
+              "regular": {
+                "storeSearchEnabled": true,
+                "storePickupLabel": "取貨：",
+                "storeSelectionEnabled": false,
+                "storePickupQuote": "Apple apm Hong Kong 暫時無法提供",
+                "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple apm Hong Kong</button> 暫時無法提供",
+                "storePickupLinkText": "查看可用狀況",
+                "storePickupProductTitle": "iPhone 18 Pro Max 512GB 銀色",
+                "basePartNumber": "MJXU4"
+              }
+            }
+          },
+          "MJXV4ZA/A": {
+            "storePickEligible": true,
+            "pickupSearchQuote": "暫無供應",
+            "partNumber": "MJXV4ZA/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "pickupDisplay": "unavailable",
+            "pickupType": "店內取貨",
+            "messageTypes": {
+              "regular": {
+                "storeSearchEnabled": true,
+                "storePickupLabel": "取貨：",
+                "storeSelectionEnabled": false,
+                "storePickupQuote": "Apple apm Hong Kong 暫時無法提供",
+                "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple apm Hong Kong</button> 暫時無法提供",
+                "storePickupLinkText": "查看可用狀況",
+                "storePickupProductTitle": "iPhone 18 Pro Max 512GB 布根地紅色",
+                "basePartNumber": "MJXV4"
+              }
+            }
+          },
           "MJXW4ZA/A": {
             "storePickEligible": true,
-            "pickupSearchQuote": "提取服務不適用",
+            "pickupSearchQuote": "暫無供應",
             "partNumber": "MJXW4ZA/A",
             "purchaseOption": "",
             "ctoOptions": "",
@@ -110,6 +614,90 @@
                 "basePartNumber": "MJXW4"
               }
             }
+          },
+          "MJXX4ZA/A": {
+            "storePickEligible": true,
+            "pickupSearchQuote": "暫無供應",
+            "partNumber": "MJXX4ZA/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "pickupDisplay": "unavailable",
+            "pickupType": "店內取貨",
+            "messageTypes": {
+              "regular": {
+                "storeSearchEnabled": true,
+                "storePickupLabel": "取貨：",
+                "storeSelectionEnabled": false,
+                "storePickupQuote": "Apple apm Hong Kong 暫時無法提供",
+                "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple apm Hong Kong</button> 暫時無法提供",
+                "storePickupLinkText": "查看可用狀況",
+                "storePickupProductTitle": "iPhone 18 Pro Max 1TB 黑色",
+                "basePartNumber": "MJXX4"
+              }
+            }
+          },
+          "MJXY4ZA/A": {
+            "storePickEligible": true,
+            "pickupSearchQuote": "暫無供應",
+            "partNumber": "MJXY4ZA/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "pickupDisplay": "unavailable",
+            "pickupType": "店內取貨",
+            "messageTypes": {
+              "regular": {
+                "storeSearchEnabled": true,
+                "storePickupLabel": "取貨：",
+                "storeSelectionEnabled": false,
+                "storePickupQuote": "Apple apm Hong Kong 暫時無法提供",
+                "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple apm Hong Kong</button> 暫時無法提供",
+                "storePickupLinkText": "查看可用狀況",
+                "storePickupProductTitle": "iPhone 18 Pro Max 1TB 銀色",
+                "basePartNumber": "MJXY4"
+              }
+            }
+          },
+          "MJY04ZA/A": {
+            "storePickEligible": true,
+            "pickupSearchQuote": "暫無供應",
+            "partNumber": "MJY04ZA/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "pickupDisplay": "unavailable",
+            "pickupType": "店內取貨",
+            "messageTypes": {
+              "regular": {
+                "storeSearchEnabled": true,
+                "storePickupLabel": "取貨：",
+                "storeSelectionEnabled": false,
+                "storePickupQuote": "Apple apm Hong Kong 暫時無法提供",
+                "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple apm Hong Kong</button> 暫時無法提供",
+                "storePickupLinkText": "查看可用狀況",
+                "storePickupProductTitle": "iPhone 18 Pro Max 1TB 布根地紅色",
+                "basePartNumber": "MJY04"
+              }
+            }
+          },
+          "MJY14ZA/A": {
+            "storePickEligible": true,
+            "pickupSearchQuote": "暫無供應",
+            "partNumber": "MJY14ZA/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "pickupDisplay": "unavailable",
+            "pickupType": "店內取貨",
+            "messageTypes": {
+              "regular": {
+                "storeSearchEnabled": true,
+                "storePickupLabel": "取貨：",
+                "storeSelectionEnabled": false,
+                "storePickupQuote": "Apple apm Hong Kong 暫時無法提供",
+                "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple apm Hong Kong</button> 暫時無法提供",
+                "storePickupLinkText": "查看可用狀況",
+                "storePickupProductTitle": "iPhone 18 Pro Max 1TB 冰川色",
+                "basePartNumber": "MJY14"
+              }
+            }
           }
         }
       },
@@ -117,9 +705,72 @@
         "storeNumber": "R485",
         "storeName": "Festival Walk",
         "partsAvailability": {
+          "MJXT4ZA/A": {
+            "storePickEligible": true,
+            "pickupSearchQuote": "暫無供應",
+            "partNumber": "MJXT4ZA/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "pickupDisplay": "unavailable",
+            "pickupType": "店內取貨",
+            "messageTypes": {
+              "regular": {
+                "storeSearchEnabled": true,
+                "storePickupLabel": "取貨：",
+                "storeSelectionEnabled": false,
+                "storePickupQuote": "Apple Festival Walk 暫時無法提供",
+                "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple Festival Walk</button> 暫時無法提供",
+                "storePickupLinkText": "查看可用狀況",
+                "storePickupProductTitle": "iPhone 18 Pro Max 512GB 黑色",
+                "basePartNumber": "MJXT4"
+              }
+            }
+          },
+          "MJXU4ZA/A": {
+            "storePickEligible": true,
+            "pickupSearchQuote": "暫無供應",
+            "partNumber": "MJXU4ZA/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "pickupDisplay": "unavailable",
+            "pickupType": "店內取貨",
+            "messageTypes": {
+              "regular": {
+                "storeSearchEnabled": true,
+                "storePickupLabel": "取貨：",
+                "storeSelectionEnabled": false,
+                "storePickupQuote": "Apple Festival Walk 暫時無法提供",
+                "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple Festival Walk</button> 暫時無法提供",
+                "storePickupLinkText": "查看可用狀況",
+                "storePickupProductTitle": "iPhone 18 Pro Max 512GB 銀色",
+                "basePartNumber": "MJXU4"
+              }
+            }
+          },
+          "MJXV4ZA/A": {
+            "storePickEligible": true,
+            "pickupSearchQuote": "暫無供應",
+            "partNumber": "MJXV4ZA/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "pickupDisplay": "unavailable",
+            "pickupType": "店內取貨",
+            "messageTypes": {
+              "regular": {
+                "storeSearchEnabled": true,
+                "storePickupLabel": "取貨：",
+                "storeSelectionEnabled": false,
+                "storePickupQuote": "Apple Festival Walk 暫時無法提供",
+                "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple Festival Walk</button> 暫時無法提供",
+                "storePickupLinkText": "查看可用狀況",
+                "storePickupProductTitle": "iPhone 18 Pro Max 512GB 布根地紅色",
+                "basePartNumber": "MJXV4"
+              }
+            }
+          },
           "MJXW4ZA/A": {
             "storePickEligible": true,
-            "pickupSearchQuote": "提取服務不適用",
+            "pickupSearchQuote": "暫無供應",
             "partNumber": "MJXW4ZA/A",
             "purchaseOption": "",
             "ctoOptions": "",
@@ -137,6 +788,90 @@
                 "basePartNumber": "MJXW4"
               }
             }
+          },
+          "MJXX4ZA/A": {
+            "storePickEligible": true,
+            "pickupSearchQuote": "暫無供應",
+            "partNumber": "MJXX4ZA/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "pickupDisplay": "unavailable",
+            "pickupType": "店內取貨",
+            "messageTypes": {
+              "regular": {
+                "storeSearchEnabled": true,
+                "storePickupLabel": "取貨：",
+                "storeSelectionEnabled": false,
+                "storePickupQuote": "Apple Festival Walk 暫時無法提供",
+                "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple Festival Walk</button> 暫時無法提供",
+                "storePickupLinkText": "查看可用狀況",
+                "storePickupProductTitle": "iPhone 18 Pro Max 1TB 黑色",
+                "basePartNumber": "MJXX4"
+              }
+            }
+          },
+          "MJXY4ZA/A": {
+            "storePickEligible": true,
+            "pickupSearchQuote": "暫無供應",
+            "partNumber": "MJXY4ZA/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "pickupDisplay": "unavailable",
+            "pickupType": "店內取貨",
+            "messageTypes": {
+              "regular": {
+                "storeSearchEnabled": true,
+                "storePickupLabel": "取貨：",
+                "storeSelectionEnabled": false,
+                "storePickupQuote": "Apple Festival Walk 暫時無法提供",
+                "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple Festival Walk</button> 暫時無法提供",
+                "storePickupLinkText": "查看可用狀況",
+                "storePickupProductTitle": "iPhone 18 Pro Max 1TB 銀色",
+                "basePartNumber": "MJXY4"
+              }
+            }
+          },
+          "MJY04ZA/A": {
+            "storePickEligible": true,
+            "pickupSearchQuote": "暫無供應",
+            "partNumber": "MJY04ZA/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "pickupDisplay": "unavailable",
+            "pickupType": "店內取貨",
+            "messageTypes": {
+              "regular": {
+                "storeSearchEnabled": true,
+                "storePickupLabel": "取貨：",
+                "storeSelectionEnabled": false,
+                "storePickupQuote": "Apple Festival Walk 暫時無法提供",
+                "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple Festival Walk</button> 暫時無法提供",
+                "storePickupLinkText": "查看可用狀況",
+                "storePickupProductTitle": "iPhone 18 Pro Max 1TB 布根地紅色",
+                "basePartNumber": "MJY04"
+              }
+            }
+          },
+          "MJY14ZA/A": {
+            "storePickEligible": true,
+            "pickupSearchQuote": "暫無供應",
+            "partNumber": "MJY14ZA/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "pickupDisplay": "unavailable",
+            "pickupType": "店內取貨",
+            "messageTypes": {
+              "regular": {
+                "storeSearchEnabled": true,
+                "storePickupLabel": "取貨：",
+                "storeSelectionEnabled": false,
+                "storePickupQuote": "Apple Festival Walk 暫時無法提供",
+                "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple Festival Walk</button> 暫時無法提供",
+                "storePickupLinkText": "查看可用狀況",
+                "storePickupProductTitle": "iPhone 18 Pro Max 1TB 冰川色",
+                "basePartNumber": "MJY14"
+              }
+            }
           }
         }
       },
@@ -144,9 +879,72 @@
         "storeNumber": "R610",
         "storeName": "New Town Plaza",
         "partsAvailability": {
+          "MJXT4ZA/A": {
+            "storePickEligible": true,
+            "pickupSearchQuote": "暫無供應",
+            "partNumber": "MJXT4ZA/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "pickupDisplay": "unavailable",
+            "pickupType": "店內取貨",
+            "messageTypes": {
+              "regular": {
+                "storeSearchEnabled": true,
+                "storePickupLabel": "取貨：",
+                "storeSelectionEnabled": false,
+                "storePickupQuote": "Apple New Town Plaza 暫時無法提供",
+                "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple New Town Plaza</button> 暫時無法提供",
+                "storePickupLinkText": "查看可用狀況",
+                "storePickupProductTitle": "iPhone 18 Pro Max 512GB 黑色",
+                "basePartNumber": "MJXT4"
+              }
+            }
+          },
+          "MJXU4ZA/A": {
+            "storePickEligible": true,
+            "pickupSearchQuote": "暫無供應",
+            "partNumber": "MJXU4ZA/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "pickupDisplay": "unavailable",
+            "pickupType": "店內取貨",
+            "messageTypes": {
+              "regular": {
+                "storeSearchEnabled": true,
+                "storePickupLabel": "取貨：",
+                "storeSelectionEnabled": false,
+                "storePickupQuote": "Apple New Town Plaza 暫時無法提供",
+                "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple New Town Plaza</button> 暫時無法提供",
+                "storePickupLinkText": "查看可用狀況",
+                "storePickupProductTitle": "iPhone 18 Pro Max 512GB 銀色",
+                "basePartNumber": "MJXU4"
+              }
+            }
+          },
+          "MJXV4ZA/A": {
+            "storePickEligible": true,
+            "pickupSearchQuote": "暫無供應",
+            "partNumber": "MJXV4ZA/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "pickupDisplay": "unavailable",
+            "pickupType": "店內取貨",
+            "messageTypes": {
+              "regular": {
+                "storeSearchEnabled": true,
+                "storePickupLabel": "取貨：",
+                "storeSelectionEnabled": false,
+                "storePickupQuote": "Apple New Town Plaza 暫時無法提供",
+                "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple New Town Plaza</button> 暫時無法提供",
+                "storePickupLinkText": "查看可用狀況",
+                "storePickupProductTitle": "iPhone 18 Pro Max 512GB 布根地紅色",
+                "basePartNumber": "MJXV4"
+              }
+            }
+          },
           "MJXW4ZA/A": {
             "storePickEligible": true,
-            "pickupSearchQuote": "提取服務不適用",
+            "pickupSearchQuote": "暫無供應",
             "partNumber": "MJXW4ZA/A",
             "purchaseOption": "",
             "ctoOptions": "",
@@ -162,6 +960,90 @@
                 "storePickupLinkText": "查看可用狀況",
                 "storePickupProductTitle": "iPhone 18 Pro Max 512GB 冰川色",
                 "basePartNumber": "MJXW4"
+              }
+            }
+          },
+          "MJXX4ZA/A": {
+            "storePickEligible": true,
+            "pickupSearchQuote": "暫無供應",
+            "partNumber": "MJXX4ZA/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "pickupDisplay": "unavailable",
+            "pickupType": "店內取貨",
+            "messageTypes": {
+              "regular": {
+                "storeSearchEnabled": true,
+                "storePickupLabel": "取貨：",
+                "storeSelectionEnabled": false,
+                "storePickupQuote": "Apple New Town Plaza 暫時無法提供",
+                "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple New Town Plaza</button> 暫時無法提供",
+                "storePickupLinkText": "查看可用狀況",
+                "storePickupProductTitle": "iPhone 18 Pro Max 1TB 黑色",
+                "basePartNumber": "MJXX4"
+              }
+            }
+          },
+          "MJXY4ZA/A": {
+            "storePickEligible": true,
+            "pickupSearchQuote": "暫無供應",
+            "partNumber": "MJXY4ZA/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "pickupDisplay": "unavailable",
+            "pickupType": "店內取貨",
+            "messageTypes": {
+              "regular": {
+                "storeSearchEnabled": true,
+                "storePickupLabel": "取貨：",
+                "storeSelectionEnabled": false,
+                "storePickupQuote": "Apple New Town Plaza 暫時無法提供",
+                "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple New Town Plaza</button> 暫時無法提供",
+                "storePickupLinkText": "查看可用狀況",
+                "storePickupProductTitle": "iPhone 18 Pro Max 1TB 銀色",
+                "basePartNumber": "MJXY4"
+              }
+            }
+          },
+          "MJY04ZA/A": {
+            "storePickEligible": true,
+            "pickupSearchQuote": "暫無供應",
+            "partNumber": "MJY04ZA/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "pickupDisplay": "unavailable",
+            "pickupType": "店內取貨",
+            "messageTypes": {
+              "regular": {
+                "storeSearchEnabled": true,
+                "storePickupLabel": "取貨：",
+                "storeSelectionEnabled": false,
+                "storePickupQuote": "Apple New Town Plaza 暫時無法提供",
+                "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple New Town Plaza</button> 暫時無法提供",
+                "storePickupLinkText": "查看可用狀況",
+                "storePickupProductTitle": "iPhone 18 Pro Max 1TB 布根地紅色",
+                "basePartNumber": "MJY04"
+              }
+            }
+          },
+          "MJY14ZA/A": {
+            "storePickEligible": true,
+            "pickupSearchQuote": "暫無供應",
+            "partNumber": "MJY14ZA/A",
+            "purchaseOption": "",
+            "ctoOptions": "",
+            "pickupDisplay": "unavailable",
+            "pickupType": "店內取貨",
+            "messageTypes": {
+              "regular": {
+                "storeSearchEnabled": true,
+                "storePickupLabel": "取貨：",
+                "storeSelectionEnabled": false,
+                "storePickupQuote": "Apple New Town Plaza 暫時無法提供",
+                "storePickupQuote2_0": "<button type=\"button\" class=\"rf-pickup-quote-overlay-trigger as-retailavailabilitytrigger-infobutton retail-availability-search-trigger as-buttonlink as-buttonlink-inline\" data-ase-overlay=\"buac-overlay\" data-ase-click=\"show\">Apple New Town Plaza</button> 暫時無法提供",
+                "storePickupLinkText": "查看可用狀況",
+                "storePickupProductTitle": "iPhone 18 Pro Max 1TB 冰川色",
+                "basePartNumber": "MJY14"
               }
             }
           }

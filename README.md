@@ -2,7 +2,7 @@
 
 为个人自取购买准备的第一阶段工具，基于 [ENCHIGO/apple-pickup-watcher](https://github.com/ENCHIGO/apple-pickup-watcher) 的接口契约和目录移植到 Cloudflare Workers。无自动下单。
 
-固定目标：**iPhone 18 Pro Max / 512GB / Glacier Blue（Apple 香港称“冰川色”）**，香港版 `MJXW4ZA/A`。
+监控目标：**iPhone 18 Pro Max，512GB 和 1TB 全部颜色**。每个容量含黑色、银色、布根地红色、冰川色，共 8 个香港版 SKU。每轮一次合并请求，核对六店的 48 个组合。
 
 覆盖 ifc mall（R428）、apm Hong Kong（R673）、New Town Plaza（R610）、Causeway Bay（R409）、Canton Road（R499）、Festival Walk（R485）。[Apple 官方门店列表](https://www.apple.com/hk/retail/storelist/)。
 
@@ -20,7 +20,7 @@ Cloudflare Cron 每分钟唤醒 Worker；目标库存查询间隔为随机 45–
 
 按当前 [Workers 免费配额](https://developers.cloudflare.com/workers/platform/limits/) 和 [D1 免费配额](https://developers.cloudflare.com/d1/platform/pricing/)，这个规模预计可在免费套餐内运行；以账号其他项目的共享用量为准。普通 Google 账号 [Apps Script 每天最多 100 个邮件收件人](https://developers.google.com/apps-script/guides/services/quotas)，持续有货不会每分钟发送邮件。配额可能调整。
 
-每店有货、无货、未知三态。少一家门店、少目标 SKU、接口失败、非 JSON 或不认识的字段都显示未知。仅当六店都有明确结果时监控显示正常。首次查询已有货会提醒；持续有货不重复，明确无货之后再次有货才再提醒。未知不清空上次明确库存。
+每个“门店＋SKU”有货、无货、未知三态。少一家门店、少目标 SKU、接口失败、非 JSON 或不认识的字段都显示未知。仅当全部 48 个组合都有明确结果时监控显示正常。每个组合首次查询已有货会提醒；持续有货不重复，明确无货之后再次有货才再提醒。未知不清空上次明确库存。
 
 邮件先保存到 D1，再发送；失败按指数退避重试，最长每小时重试一次。Gmail relay 在 48 小时内按事件 ID 去重。发送与去重记录无法跨 Gmail 实现原子事务，极端故障可能收到重复邮件。
 

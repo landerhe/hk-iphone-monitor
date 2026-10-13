@@ -21,7 +21,7 @@ test('status endpoint denies unauthenticated access and flags stale snapshots',a
 test('cron stores actual parsed snapshot and releases lease',async()=>{
   const previousFetch=globalThis.fetch;const DB=database();
   globalThis.fetch=async()=>Response.json(fixture);
-  try{await run({DB},{random:()=>0,wait:async()=>{}});const s=JSON.parse(DB.row.state);assert.equal(s.healthy,true);assert.equal(Object.keys(s.rows).length,6);assert.equal(DB.row.lock_until,0);}
+  try{await run({DB},{random:()=>0,wait:async()=>{}});const s=JSON.parse(DB.row.state);assert.equal(s.healthy,true);assert.equal(Object.keys(s.rows).length,48);assert.equal(DB.row.lock_until,0);}
   finally{globalThis.fetch=previousFetch;}
 });
 test('overlapping cron invocations make only one inventory request',async()=>{
